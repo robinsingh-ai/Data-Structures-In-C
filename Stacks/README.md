@@ -22,4 +22,4 @@ Stack is used to keep information about the active functions or subroutines.
 Processor uses stack for normal function calling
 
 
-***TO SEE ALGORITHM REFER WORD DOC***
+** ALGORITHM REFER WORD DOC***
