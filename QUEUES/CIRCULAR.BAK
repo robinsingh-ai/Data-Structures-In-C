@@ -1,0 +1,145 @@
+//Header Files
+#include<stdio.h>
+#include<conio.h>
+#define MAX 5
+typedef struct
+{
+ int q[MAX];
+ int r,f,count;
+ }queue;
+
+
+//***********************************************
+//Function For Inserting
+
+void insert(queue *t,int ele)
+{
+ if(t->count==MAX)
+ {
+  printf("Queue is Overflown\n");
+  }
+  else
+  {
+   t->count++;
+   t->r=(t->r+1)%MAX;
+
+   t->q[t->r]=ele;
+   }
+}
+
+//=======================================================
+//Function to check whether the queue  is empty or not
+
+int isEmpty(queue *t)
+{
+ if(t->count==0)
+ {
+  return 1;
+  }
+ else
+ {
+  return 0;
+  }
+}
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++
+//Function for deleting the element from the queue
+
+
+int del(queue *t)
+{
+ int z;
+ if(isEmpty(t))
+ {
+  printf("Queue is underflown\n");
+  return -1;
+  }
+  else
+  {
+   t->count--;
+   z=t->q[t->f];
+   t->f=(t->f+1)%MAX;
+   return z;
+   }
+}
+
+
+//---------------------------------------------
+//Function For displaying the whole queue
+
+void display(queue *t)
+{
+ int i;
+ if(isEmpty(t))
+ {
+  printf("Queue Is Empty\n");
+  }
+  else
+  {
+  i=t->f;
+  while(1)
+  {
+   printf("%d\t\n",t->q[i]);
+     if(i==t->r)
+     {
+      break;
+      }
+      else
+      {
+       i=(i+1)%MAX;
+       }
+   printf("\n");
+   }
+   }
+  }
+//MAin function
+//*****************
+
+void main()
+{
+  int ch,ele;
+  queue x;
+  x.f=0;
+  x.r=MAX-1;
+  x.count=0;
+  clrscr();
+
+  while(1)
+  {
+  printf("Entre Your Choice\n\n");
+  printf("1.Insert  2.Delete  3.Dispaly   4.Exit\n");
+  printf("******************************************\n");
+  scanf("%d",&ch);
+
+  if(ch==4)
+  {
+   break;
+   }
+
+   switch(ch)
+   {
+    case 1:printf("Entre element to be inserted\n");
+	   scanf("%d",&ele);
+	   insert(&x,ele);
+	   display(&x);
+	   break;
+    case 2:if(isEmpty(&x))
+	      {
+	       printf("Queue is Uderflown\n");
+	       }
+	       else
+	       {
+		del(&x);
+		display(&x);
+		}
+		break;
+    case 3: display(&x);
+	    break;
+    default:printf("*******INVALID OPTION*********\n");
+    }
+   }
+  }
+
+
+
+
