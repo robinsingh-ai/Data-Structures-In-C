@@ -10,8 +10,8 @@ It Is A Concept Of Organizing The Data In Such A Way That The Retrival Of Data B
 
 | SR NO |   NAMES     |
 | :---: |     :---:   |
-|0      | STACK       |
-|1      | QUEUES      |
+|0      | [STACK](https://github.com/robin025/Data-Structures-In-C/tree/master/Stacks)       |
+|1      | [QUEUES](https://github.com/robin025/Data-Structures-In-C/tree/master/QUEUES)      |
 |2      | LINKED LIST |
 |3      | RECURSION   |
 |4      | TREES       |
