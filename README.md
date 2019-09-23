@@ -12,7 +12,7 @@ It Is A Concept Of Organizing The Data In Such A Way That The Retrival Of Data B
 | :---: |     :---:   |
 |0      | [STACK](https://github.com/robin025/Data-Structures-In-C/tree/master/Stacks)       |
 |1      | [QUEUES](https://github.com/robin025/Data-Structures-In-C/tree/master/QUEUES)      |
-|2      | LINKED LIST |
+|2      | [LINKED LIST](https://github.com/robin025/Data-Structures-In-C/tree/master/Linked%20List) |
 |3      | RECURSION   |
 |4      | TREES       |
 |5      | SORTING     |
