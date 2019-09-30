@@ -1,5 +1,6 @@
 # STACK
 Stack Uses **Last In First Out (LIFO)** Approch And Can Also be Called Push Down List.
+![](Image/Stacks.jpg)
 
 Some Applications:
 
