@@ -10,15 +10,13 @@ It Is A Concept Of Organizing The Data In Such A Way That The Retrival Of Data B
 
 | SR NO |   NAMES     |
 | :---: |     :---:   |
-|0      | [STACK](https://github.com/robin025/Data-Structures-In-C/tree/master/Stacks)       |
-|1      | [QUEUES](https://github.com/robin025/Data-Structures-In-C/tree/master/QUEUES)      |
-|2      | [LINKED LIST](https://github.com/robin025/Data-Structures-In-C/tree/master/Linked%20List) |
-|3      | [RECURSION](https://github.com/robin025/Data-Structures-In-C/tree/master/Recursion)   |
-|4      | [TREES](https://github.com/robin025/Data-Structures-In-C/tree/master/Trees)       |
-|5      | SORTING     |
-|6      | SEARCHING   |
-|7      | GRAPHS      |
-|8      | SEARCH TREES|
+|1      | [STACK](https://github.com/robin025/Data-Structures-In-C/tree/master/Stacks)       |
+|2      | [QUEUES](https://github.com/robin025/Data-Structures-In-C/tree/master/QUEUES)      |
+|3      | [LINKED LIST](https://github.com/robin025/Data-Structures-In-C/tree/master/Linked%20List) |
+|4      | [RECURSION](https://github.com/robin025/Data-Structures-In-C/tree/master/Recursion)   |
+|5      | [TREES](https://github.com/robin025/Data-Structures-In-C/tree/master/Trees)       |
+|6      | SORTING     |
+|7      | SEARCHING   |
 
 Above Are The Some Type Of Data Structures Used For Organizing And Storing Data.
 So We'll Use **Turbo C Or Code Blocks** To Run This Programs.
