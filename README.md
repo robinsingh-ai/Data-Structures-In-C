@@ -14,7 +14,7 @@ It Is A Concept Of Organizing The Data In Such A Way That The Retrival Of Data B
 |1      | [QUEUES](https://github.com/robin025/Data-Structures-In-C/tree/master/QUEUES)      |
 |2      | [LINKED LIST](https://github.com/robin025/Data-Structures-In-C/tree/master/Linked%20List) |
 |3      | [RECURSION](https://github.com/robin025/Data-Structures-In-C/tree/master/Recursion)   |
-|4      | TREES       |
+|4      | [TREES](https://github.com/robin025/Data-Structures-In-C/tree/master/Trees)       |
 |5      | SORTING     |
 |6      | SEARCHING   |
 |7      | GRAPHS      |
