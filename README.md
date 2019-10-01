@@ -15,7 +15,7 @@ It Is A Concept Of Organizing The Data In Such A Way That The Retrival Of Data B
 |3      | [LINKED LIST](https://github.com/robin025/Data-Structures-In-C/tree/master/Linked%20List) |
 |4      | [RECURSION](https://github.com/robin025/Data-Structures-In-C/tree/master/Recursion)   |
 |5      | [TREES](https://github.com/robin025/Data-Structures-In-C/tree/master/Trees)       |
-|6      | SORTING     |
+|6      | [SORTING](https://github.com/robin025/Data-Structures-In-C/tree/master/Sorting)     |
 |7      | SEARCHING   |
 
 Above Are The Some Type Of Data Structures Used For Organizing And Storing Data.
