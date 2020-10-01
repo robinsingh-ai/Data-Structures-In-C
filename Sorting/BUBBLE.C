@@ -29,10 +29,10 @@ void Bubblesort(int x[],int n)
  clrscr();
 
  printf("Entre how many digits you have to sort\n");
- scanf("%d",&n);
+ scanf("%d", &n);
  for(i=0;i<n;i++)
  {
-  scanf("%d ",&a[i]);
+  scanf("%d ", &a[i]);
       }
   Bubblesort(a,n);
 
@@ -44,5 +44,7 @@ void Bubblesort(int x[],int n)
    printf("\n");
 
    getch();
+  
+  return = 0;
 
   }
