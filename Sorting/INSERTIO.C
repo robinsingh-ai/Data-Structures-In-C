@@ -28,10 +28,10 @@ void main()
  int a[10],i,n;
  clrscr();
  printf("Entre numbers of element you want in the array\n");
- scanf("%d",&n);
+ scanf("%d", &n);
  for(i=0;i<n;i++)
  {
-  scanf("%d",&a[i]);
+  scanf("%d", &a[i]);
   }
   insertionsort(a,n);
   printf("Sorted array:\n");
@@ -40,6 +40,9 @@ void main()
    printf("%d ",a[i]);
    }
   printf("\n");
+ 
+ return = 0;
+ 
   getch();
  }
 
