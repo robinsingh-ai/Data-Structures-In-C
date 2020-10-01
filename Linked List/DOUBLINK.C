@@ -103,7 +103,7 @@ int deletebeg(head *t)
  if(t->start==NULL)
  {
   printf("Empty LINKED LIST\n");
-  return -1;
+  return (-1);
   }
   else
   { p=t->start;
@@ -127,7 +127,7 @@ int deleteend(head *t)
  if(t->start==NULL)
  {
   printf("EMPTY LINKED LIST\n");
-  return -1;
+  return (-1);
   }
   else
   {p=t->last;
@@ -157,7 +157,7 @@ void main()
   printf("ENTRE YOUR CHOICE\n");
   printf("*******************\n");
   printf("1.INSERT BEGINNING\n2.INSERT END\n3.DISPLAY\n4.DISPLAY REVERSE\n5.DELETE BEGINNING\n6.DELETE END\n7.EXIT\n");
-  scanf("%d\n",&ch);
+  scanf("%d\n", &ch);
   if(ch==7)
   {
    break;
@@ -166,13 +166,13 @@ void main()
    switch(ch)
    {
      case 1: printf("Entre Your element u want to be push at the beginning of the doubly linked list\n");
-	     scanf("%d",&ele);
+	     scanf("%d", &ele);
 	     insertbeg(&x,ele);
 	     display(&x);
 	     break;
 
      case 2: printf("Entre Your element u want to be push at the end of the doubly linked list\n");
-	     scanf("%d",&ele);
+	     scanf("%d", &ele);
 	     insertend(&x,ele);
 	     display(&x);
 	     break;
