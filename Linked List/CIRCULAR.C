@@ -68,7 +68,7 @@ void display(head *t)
    q=t->last->next;
    do
    {
-    printf("%d ",q->data);
+    printf("%d ", q->data);
     q=q->next;
     }
     while
@@ -84,7 +84,7 @@ int deletebeg(head *t)
  if(t->last->next==NULL)
  {
   printf("Empty Linked lsit\n");
-  return -1;
+  return (-1);
   }
   else
   {
@@ -109,7 +109,7 @@ int deleteend(head *t)
  if(t->last==NULL)
  {
   printf("Empty Linked list\n");
-  return -1;
+  return (-1);
   }
   else
   {
@@ -144,7 +144,7 @@ void main()
  {
   printf("Entre Your Choice\n");
   printf("1.Insert Begginning \n 2.Insert End \n  3.Dispaly\n4.Delete Beginning\n5.Delete End  \n 6.Exit\n    ");
-     scanf("%d",&ch);
+     scanf("%d", &ch);
   if(ch==6)
   {
    break;
@@ -155,13 +155,13 @@ void main()
     switch(ch)
     {
      case 1:printf("Entre element to be inserted at the beginning of the linked list\n");
-	    scanf("%d",&ele);
+	    scanf("%d", &ele);
 	    insertbeg(&x,ele);
 	    display(&x);
 
 	    break;
       case 2:printf("Entre element to be inserted at the end of linked list\n ");
-	     scanf("%d",&ele);
+	     scanf("%d", &ele);
 	     insertend(&x,ele);
 	     display(&x);
 	     break;
